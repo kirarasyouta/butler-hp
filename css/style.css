@@ -1,0 +1,123 @@
+@charset "UTF-8";
+body {
+    background-color: rgb(0, 238, 255);
+}
+ul {
+    display: flex;
+    justify-content: flex-end;
+}
+li {
+    list-style: none;
+    padding: 5px;
+    margin: 5px;
+    border: 1px solid;
+    background-color: #00f;
+}
+li a {
+    color: #fff;
+}
+main {
+    background-color: rgb(227, 255, 252);
+}
+
+/* index */
+.main_banner {
+    width: 100%;
+}
+/* story */
+ol {
+    display: flex;
+    justify-content: center;
+}
+.start {
+    text-align: center;
+}
+/* .tatie {
+    
+} */
+.waku {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-start;
+}
+.st_waku {
+    background-color: rgb(133, 255, 255);
+    width: 420px;
+}
+.nusi {
+    color: #f0f;
+}
+
+/* more */
+/* butler */
+.img_butlre {
+    width: 25%;
+}
+/* kuga */
+.kuga {
+    color: #00f;
+}
+
+/* mituka */
+.mituka {
+    color: rgb(1, 170, 12);
+}
+
+/* aru */
+.aru {
+    color: rgb(245, 245, 0);
+}
+
+/* keinesu */
+.keinesu {
+    color: #f00;
+}
+
+/* character */
+.icon {
+    display: flex;
+    justify-content: center;
+}
+.cv_waku {
+    display: flex;
+    flex-direction: column;
+}
+.cv_waku_deta {
+    display: flex;
+    flex-direction: reverse;
+}
+.cv_waku_out {
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+}
+.icon a {
+    margin: 20px;
+}
+
+/* kuga */
+.cv_waku_out_kuga{
+    background-color: rgb(191, 248, 244);
+    border: 1px solid;
+    width: 420px;
+}
+
+/* mituka */
+.cv_waku_out_mituka{
+    background-color: rgb(207, 255, 195);
+    border: 1px solid;
+    width: 420px;
+}
+/* aru */
+.cv_waku_out_aru{
+    background-color: rgb(248, 247, 186);
+    border: 1px solid;
+    width: 420px;
+}
+
+/* keinesu */
+.cv_waku_out_keinesu{
+    background-color: rgb(255, 202, 202);
+    border: 1px solid;
+    width: 420px;
+}
